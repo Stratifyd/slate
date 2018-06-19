@@ -27,15 +27,15 @@ bundle install --path vendor/bundle
 bundle exec middleman server
 ```
 
+Open the host address in the terminal.
+
 ### Local Static Build
 
 ```shell
 bundle exec middleman build --clean
 ```
 
-Open build/index.html
-
-
+Open build/index.html .
 
 ## Deploy
 
