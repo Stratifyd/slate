@@ -1,11 +1,15 @@
-# Stratifyd Public API Website
+# Stratifyd Document Website Template
 
-This is the website for public access.
+## How to use
 
-Host List
+1. Fork this project
+2. Clone it to local and setup dev env
+3. Write markdown
+4. Deplay
 
-1. [Github](https://stratifyd.github.io/APIWebSite/)
+The default host is on Github.io
 
+You can find the URL under "GitHub Pages" in the repository setting page.
 
 ## Setup 
 
