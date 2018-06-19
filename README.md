@@ -24,5 +24,7 @@ bundle install --path vendor/bundle
 
 1. Run `./upload.sh {bucket_name}`
 
+## More Help
+
 For help of the Slate, check out [Slate](https://github.com/Stratifyd/slate)
 
