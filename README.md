@@ -3,9 +3,11 @@
 ## How to use
 
 1. Fork this project
-2. Clone it to local and setup dev env
-3. Write markdown
-4. Deplay
+2. Clone it to local
+3. Setup dev env, you might have to intall bundler, `gem install bundler`
+4. Write markdown
+5. Commit
+6. Deploy
 
 The default host is on Github.io
 
@@ -30,5 +32,5 @@ bundle install --path vendor/bundle
 
 ## More Help
 
-For help of the Slate, check out [Slate](https://github.com/Stratifyd/slate)
+For help of the Slate, check out [Slate](https://github.com/lord/slate)
 
