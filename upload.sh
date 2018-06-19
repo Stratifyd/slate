@@ -13,7 +13,7 @@ do
 			echo "Sending to $target"
 			# build_scripts/s3uploader.sh "$target"
 			# s3cmd sync ./dist/Release "s3://$target" --acl-public --delete-removed
-			aws s3 sync ./build "s3://$target/excrawler" --region us-west-2 --size-only --exact-timestamps;
+			aws s3 sync ./build "s3://$target" --region us-west-2 --size-only --exact-timestamps;
 			# aws s3 cp --recursive ./dist/Release "s3://$target/" --region us-west-2;
 			;;
 	esac

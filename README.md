@@ -19,6 +19,24 @@ You can find the URL under "GitHub Pages" in the repository setting page.
 bundle install --path vendor/bundle
 ```
 
+## Test
+
+### Local Server
+
+```shell
+bundle exec middleman server
+```
+
+### Local Static Build
+
+```shell
+bundle exec middleman build --clean
+```
+
+Open build/index.html
+
+
+
 ## Deploy
 
 ### Github
